@@ -25,7 +25,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "webpack-dev-server --content-base src --inline --hot --port 6969 --host 125.212.233.51",
+    "dev": "webpack-dev-server --content-base src --inline --hot --port 9899 --host 125.212.233.51",
     "package": "webpack --config webpack.config.production.js --progress --colors"
   },
   "author": "",

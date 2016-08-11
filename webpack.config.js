@@ -8,7 +8,7 @@ module.exports = {
   entry: "./js/View.js",
   devServer: {
     inline:true,
-    port: 6969
+    port: 9899
   },
   module: {
     loaders: [
