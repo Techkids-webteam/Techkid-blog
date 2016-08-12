@@ -6,7 +6,7 @@ import HeaderMenu from "../../Home/HeaderMenu/HeaderMenu";
 import PageRecentCatolary from "../PageRecentCatolary/PageRecentCatolary";
 import NewPost from "../../Home/NewPost/NewPost";
 import Footer from "../../Home/Footer/Footer";
-import ScrollToTop from "../../Home/ScrollToTop/ScrollToTop";
+import ScrollToTop from "../../Home/ScrollToTop/scrollToTop";
 import Scholarship from "../../Home/Scholarship/Scholarship";
 
 export default class LayoutDetail extends React.Component{
