@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Header from "/../../Home/header/Header";
-import BlogContentBlock from "/../BlogContentBlock/BlogContentBlock";
-import HeaderMenu from "/../../Home/HeaderMenu/HeaderMenu";
+import Header from "./../../Home/header/Header";
+import BlogContentBlock from "./../BlogContentBlock/BlogContentBlock";
+import HeaderMenu from "./../../Home/HeaderMenu/HeaderMenu";
 import PageRecentCatolary from "../PageRecentCatolary/PageRecentCatolary";
-import NewPost from "/../../Home/NewPost/NewPost";
-import Footer from "/../../Home/Footer/Footer";
-import ScrollToTop from "/../../Home/ScrollToTop/scrollToTop";
-import Scholarship from "/../../Home/Scholarship/Scholarship";
+import NewPost from "./../../Home/NewPost/NewPost";
+import Footer from "./../../Home/Footer/Footer";
+import ScrollToTop from "./../../Home/ScrollToTop/scrollToTop";
+import Scholarship from "./../../Home/Scholarship/Scholarship";
 
 export default class LayoutDetail extends React.Component{
 
