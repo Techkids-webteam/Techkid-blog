@@ -7,7 +7,7 @@ import Title from "../Title/Title";
 import NewPost from "../NewPost/NewPost";
 import PageRecentCatolary from "../PageRecentCatolary/PageRecentCatolary";
 import Footer from "../Footer/Footer";
-import ScrollToTop from "../ScrollToTop/ScrollToTop";
+import ScrollToTop from "../ScrollToTop/scrollToTop";
 import Scholarship from "../Scholarship/Scholarship";
 
 export default class Layout extends React.Component{
