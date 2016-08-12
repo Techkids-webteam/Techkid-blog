@@ -4,27 +4,12 @@ export default class Detail extends React.Component{
   constructor(){
     super()
   }
-  componentDidUpdate(){
-     let id = this.props.params.id
-      $.ajax({
-          type: 'GET',
-          url: 'http://techkids.vn:9196/api/blog/getBlog/'+ id, 
-          cache : false,
-          success: function(res){
-            this.setState({
-              post : res
-            })
-          }.bind(this),
-          error: function(err){ 
-            console.log(err)
-          }.bind(this)
-      })
-  }
   rawMarkup(text) {
       let md = new Remarkable();
       let rawMarkup = md.render(text);
       return { __html: rawMarkup };
   }
+
   render(){
     return (
         <div className="">
@@ -53,7 +38,6 @@ export default class Detail extends React.Component{
                 </div>
 
                 <div className="col-sm-10 Detail_content">
-                  <p>{this.props.post}</p>
                   <h2>{this.props.title}</h2>
                   <p dangerouslySetInnerHTML={this.rawMarkup(this.props.content)}></p>
                 </div>     

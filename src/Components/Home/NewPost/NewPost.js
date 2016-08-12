@@ -14,7 +14,7 @@ export default class NewPost extends React.Component{
       url: 'http://techkids.vn:9196/api/blog/getTrendingBlog',
       cache : false,
       success: function(res){
-        console.log(res)
+
         this.setState({
           blog: res.blog
         })
@@ -45,9 +45,8 @@ export default class NewPost extends React.Component{
   }
 
   render(){
-    console.log(this.state)
     var Posts = this.state.blog.map((post) =>{
-      console.log(post)
+      
       return ( 
               <div className="col-sm-4" key={post._id}>
                   <img src="../../images/imgblack.png"/>

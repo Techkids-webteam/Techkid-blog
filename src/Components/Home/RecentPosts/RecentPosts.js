@@ -15,7 +15,6 @@ export default class RecentPosts extends React.Component{
       url: 'http://techkids.vn:9196/api/blog/getTrendingBlog',
       cache : false,
       success: function(res){
-        console.log(res)
         this.setState({
           blog: res.blog
         })
@@ -28,7 +27,6 @@ export default class RecentPosts extends React.Component{
 
   render(){
     var Posts = this.state.blog.map((post) =>{
-        console.log(post)
         return ( 
               <div className="RecentPosts_Title_content" key={post._id}>
                 <div className="col-sm-5 RecentPosts_Title_content_img">
